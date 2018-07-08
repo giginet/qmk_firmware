@@ -41,17 +41,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL,        CTL_T(KC_Z),  KC_X,   KC_C,   KC_V,   KC_B,   KC_NO,
         KC_F1,KC_QUOT,    KC_LCTL,  KC_LALT,KC_LGUI,
                                               ALT_T(KC_APP),  KC_LGUI,
-                                                              KC_HOME,
+                                                              KC_LANG2,
                                                KC_SPC,KC_LGUI,KC_LANG1,
         // right hand
-             KC_6,   KC_7,   KC_8,   KC_9,   KC_0,   KC_MINS,          KC_BSPC,
+             KC_NO,KC_6,   KC_7,   KC_8,   KC_9,   KC_0,   KC_BSPC,
              TG(SYMB),       KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_BSLS,
                           KC_H,   KC_J,   KC_K,   KC_L,   LT(MDIA, KC_SCLN),KC_ENT,
              KC_TRNS,KC_N,   KC_M,   KC_COMM,KC_DOT, CTL_T(KC_SLSH),   KC_RSFT,
-                                  KC_UP,  KC_DOWN,KC_LBRC,KC_RBRC,          MO(SYMB),
+                                  KC_MINS,  KC_PLUS,KC_LBRC,KC_RBRC,          MO(SYMB),
              KC_LEFT,        KC_RIGHT,
-             KC_NO,
-             KC_LANG2,KC_RGUI, KC_SPACE
+             KC_UP,
+             KC_DOWN,KC_RGUI, KC_SPACE
     ),
 /* Keymap 1: Symbol Layer
  *
