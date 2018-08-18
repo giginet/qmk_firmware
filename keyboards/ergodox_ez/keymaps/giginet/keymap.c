@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,        KC_1,         KC_2,   KC_3,   KC_4,   KC_5,   KC_MINS,
         KC_GRV,        KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   KC_LBRC,
         CTL_T(KC_TAB), KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
-        KC_LSFT,       CTL_T(KC_Z),  KC_X,   KC_C,   KC_V,   KC_B,   KC_LANG1,
+        KC_LSFT,       KC_Z,         KC_X,   KC_C,   KC_V,   KC_B,   KC_LANG1,
         MO(MDIA),      KC_QUOT,      KC_LCTL,KC_LALT,KC_LGUI,
                                                      KC_LCTL,KC_LALT,
                                                              KC_UP,
@@ -45,8 +45,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // right hand
         KC_EQL,        KC_6,         KC_7,   KC_8,   KC_9,   KC_0,             KC_BSPC,
         KC_RBRC,       KC_Y,         KC_U,   KC_I,   KC_O,   KC_P,             KC_BSLS,
-                       KC_H,         KC_J,   KC_K,   KC_L,   LT(MDIA, KC_SCLN),KC_QUOT,
-        KC_LANG2,      KC_N,         KC_M,   KC_COMM,KC_DOT, CTL_T(KC_SLSH),   KC_RSFT,
+                       KC_H,         KC_J,   KC_K,   KC_L,   KC_SCLN,          KC_QUOT,
+        KC_LANG2,      KC_N,         KC_M,   KC_COMM,KC_DOT, KC_SLSH,          KC_RSFT,
                                      KC_MINS,KC_EQL, KC_LBRC,KC_RBRC,          MO(SYMB),
         KC_LEFT,  KC_RIGHT,
         KC_UP,
@@ -117,7 +117,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // MEDIA AND MOUSE
 [MDIA] = LAYOUT_ergodox(
        KC_TRNS, KC_SLCK, KC_PAUS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-       RGB_HUI, RGB_HUD, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD, RESET,
+       RGB_HUD, RGB_HUI, RGB_SAD, RGB_SAI, RGB_VAD, RGB_VAI, RESET,
        KC_TRNS, RGB_M_K, RGB_M_X, RGB_M_G, RGB_M_T, KC_TRNS,
        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
