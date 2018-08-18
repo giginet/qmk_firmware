@@ -1,8 +1,19 @@
-# The OSX Friendly Version of the Default Firmware
+# All my configuration are belong to us
 
-So, I took the default firmware and just made a couple of tweaks that make it easier to use with OS X:
+This is the ultimate @giginet frendly version of the Default Firmware. 
 
-1. The Cmd key is now on the right side, making Cmd+Space easier.
-2. The media keys work on OSX (But not on Windows).
+Sync configration between following:
 
-![default osx](https://i.imgur.com/z0aqFDq.png)
+https://configure-beta.ergodox-ez.com/layouts/G6g/latest/2
+
+## BASE Layer
+
+![BASE layer](layer0.png)
+
+## SYMBOL Layer
+
+![SYMBOL layer](layer1.png)
+
+## MEDIA Layer
+
+![MEDIA layer](layer2.png)
