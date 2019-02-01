@@ -173,9 +173,11 @@ void matrix_scan_user(void) {
     // TODO: Make this relevant to the ErgoDox EZ.
     case SYMB:
       ergodox_right_led_1_on();
+      rgblight_setrgb_red();
       break;
     case MDIA:
       ergodox_right_led_2_on();
+      rgblight_setrgb_green();
       break;
     default:
       // none
@@ -183,3 +185,12 @@ void matrix_scan_user(void) {
   }
 
 };
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  if (record->event.pressed) {
+    rgblight_sethsv_noeeprom((keycode * 8) % 360, 255, 255);
+  } else {
+    rgblight_init();
+  }
+  return true;
+}
